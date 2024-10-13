@@ -14,6 +14,9 @@ useHead({
 <template>
     <NuxtLayout name="base">
         <!-- header -->
-        <SectionsHeader />
+        <SectionsHeader class="mb-8" />
+
+        <!-- main -->
+        <SectionsMainContent />
     </NuxtLayout>
 </template>

@@ -13,12 +13,12 @@ const { isInGame = false, isOnline = true, avatar = "" } = defineProps<Props>()
 </script>
 
 <template>
-    <div class="w-10 h-10 bg-cover bg-center bg-no-repeat rounded-full relative" :style="{
+    <div class="w-12 h-12 bg-cover bg-center bg-no-repeat rounded-full relative" :style="{
         backgroundImage: `url(/images/avatars/${avatar})`
     }">
         <!-- is online -->
         <span v-if="isOnline"
-            class="block w-3 h-3 bg-green-400 rounded-full border border-secondary-500 absolute right-0 -top-1"></span>
+            class="block w-4 h-4 bg-green-400 rounded-full border-2 border-secondary-500 absolute right-0 -top-1"></span>
 
         <!-- in game -->
         <span v-if="isInGame"

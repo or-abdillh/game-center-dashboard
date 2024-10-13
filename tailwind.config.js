@@ -29,7 +29,9 @@ export default {
                     800: "#5B0000",
                     900: "#410000"
                 },
-                tertiary: "#62272D"
+                tertiary: "#62272D",
+                quaternary: "#502129",
+                oasis: "#FBFCC3"
             },
             borderrRadius: {
                 "4xl": "2rem"
