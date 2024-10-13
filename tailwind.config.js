@@ -28,8 +28,12 @@ export default {
                     700: "#750000",
                     800: "#5B0000",
                     900: "#410000"
-                }
-            }
+                },
+                tertiary: "#62272D"
+            },
+            borderrRadius: {
+                "4xl": "2rem"
+            },
         },
     },
     plugins: [],
