@@ -5,7 +5,12 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Popins", "sans-serif"]
+                sans: ["Poppins", "sans-serif"]
+            },
+            borderRadius: {
+                "4xl": "2rem",
+                "5xl": "2.5rem",
+                "6xl": "3rem"
             },
             colors: {
                 primary: {

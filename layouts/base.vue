@@ -5,16 +5,16 @@
     <Head>
         <Title>Game Center Dashboard | Nuxt Tailwind</Title>
     </Head>
-    <main class="min-h-screen bg-tertiary flex xl:py-8 px-2 py-6">
+    <main class="min-h-screen bg-tertiary grid grid-cols-12 xl:py-8 px-2 py-6">
         <!-- sidebar -->
-        <PanelsSidebar />
+        <PanelsSidebar class="col-span-1" />
 
         <!-- main panel -->
-        <section class="w-full">
+        <section class="col-span-10">
             <slot />
         </section>
 
         <!-- account panel -->
-        <PanelsAccounts />
+        <PanelsAccounts class="col-span-1" />
     </main>
 </template>

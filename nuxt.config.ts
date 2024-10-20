@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     compatibilityDate: '2024-04-03',
     devtools: { enabled: true },
-    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-mdi'],
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', 'nuxt-mdi', 'nuxt-svgo'],
     googleFonts: {
         families: {
             Poppins: {
@@ -10,7 +10,6 @@ export default defineNuxtConfig({
                 italic: [400, 500, 600, 700],
             }
         },
-        display: 'swap',
         preconnect: true,
         preload: true,
         stylePath: "css",

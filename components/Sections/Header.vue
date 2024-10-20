@@ -1,18 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-    <header class="grid grid-cols-2 px-6 pt-4">
+    <header class="flex px-6 pt-4 items-center gap-3 justify-between">
         <!-- start -->
-        <section class="col-span-1">
+        <section class="col-span-1 animate__fadeInUp animate__animated animate__fadeInUp animate__delay-1s">
             <p class=" text-primary-300 text-xl xl:text-2xl">Good evening, <strong
                     class="uppercase text-white">nikitin</strong></p>
         </section>
 
         <!-- end -->
-        <section class="col-span-1 flex justify-between gap-5 items-center">
+        <section class="col-span-1 flex justify-between gap-5">
             <!-- search bar -->
             <div
-                class="w-8/12 bg-quaternary flex gap-3 items-center ps-5 rounded-full overflow-hidden text-primary-300">
+                class="w-8/12 bg-quaternary flex gap-3 items-center ps-5 rounded-full overflow-hidden text-primary-300 animate__fadeInUp animate__animated animate__delay-1s">
                 <i class="fa-solid fa-search"></i>
                 <input type="search"
                     class="px-5 py-4 w-full bg-quaternary placeholder:text-primary-300 outline-none placeholder:font-sans"
@@ -22,12 +22,14 @@
             <!-- others -->
             <div class="flex gap-3 items-center">
                 <!-- cart -->
-                <span class="grid place-items-center w-16 h-16 bg-secondary-500 rounded-full">
+                <span
+                    class="grid place-items-center w-16 h-16 bg-secondary-500 rounded-full animate__fadeInRight animate__animated animate__delay-1s">
                     <i class="fa-solid fa-cart-shopping text-gray-50 text-2xl"></i>
                 </span>
 
                 <!-- notification -->
-                <span class="grid place-items-center w-16 h-16 bg-secondary-500 rounded-full relative">
+                <span
+                    class="grid place-items-center w-16 h-16 bg-secondary-500 rounded-full relative animate__fadeInRight animate__animated animate__delay-1s">
                     <i class="fa-regular fa-bell text-gray-50 text-2xl"></i>
 
                     <!-- notification badge -->
